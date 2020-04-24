@@ -44,7 +44,7 @@ if (/Firefox/.test(navigator.userAgent)) {
         proxyType: 'manual',
         socks: `http://${tor.info['socks-host']}:${tor.info['socks-port']}`,
         socksVersion: 5,
-        proxyDNS: true
+        proxyDNS: true,
         passthrough: ''
       }
     }, () => {
